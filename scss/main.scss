@@ -104,6 +104,14 @@ main {
         background: lighten($color: $primary-color, $amount: 5);
         padding: 0.5rem;
         border-bottom: 5px solid $secondary-color;
+
+        .bullet-point {
+            margin: 3px 0;
+        }
+        
+        h3 {
+            text-align: center;
+        }
     }
 }
 
